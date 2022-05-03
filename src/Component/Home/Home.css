@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    background-image: url('../../accets/img/sliderHome.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    padding-bottom: 26px;
+}
+.slider .contant{
+    padding-top:15%;
+    color:#F5F5F5
+}
+.slider .contant button{
+    margin-top: 5%;
+    color:#F5886C;
+    padding-left: 5%;   
+    padding-right: 5%;
+}
+.slider .boxSlider{
+}
+.slider .boxSlider .box{
+    background-color: white;
+    width: 450px;
+    height:88%;
+    margin-top: 10%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.slider .boxSlider .box .form{
+    padding: 8%;
+}
+
+.slider .boxSlider .box .form input{
+    background-color:#EAEAEA;
+    border:none;
+}
+.slider .boxSlider .box .form .btnSearch{
+    background-color: #F5886C;
+    color:#fff;
+}
+.slider .boxSlider .box .btnOrang{
+    background-color: #F5886C;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:#ffffff
+}
+.slider .boxSlider .box button{
+    color: #F5886C;
+    padding-left: 5%;
+    margin-bottom: 10px;
+
+}
+
+.hot_tour{
+    background-color: #F5F5F5;
+}
+.hot_tour .element{
+text-align: center;
+padding-top: 5%;
+}
+.hot_tour .element .line{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #F5886C;
+    width: 30%;
+    margin:auto
+}
+
+
+.hot_tour .country{
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.hot_tour .country img{
+    width:95%;
+}
+.hot_tour .country button{
+    margin-top: -25%;
+    margin-left:10%;
+    padding-top: 1px;
+    padding-bottom: 3px;
+
+}
+.feature .icon{
+    padding: 5%;
+    margin:auto
+}
+.feature .icon h5{
+    display:inline-block;
+    padding: 5%;
+    padding-left: 5%;
+}
+.feature .icon div a{
+    color: #F5886C;
+
+}
+
+.feedback{
+    background-color: #016F72;
+    padding-bottom: 3%;
+
+}
+.feedback h3{
+    text-align: center;
+    color:white;
+    padding-top: 4%;
+    padding-bottom: 3%;
+
+}
+.feedback .commentElement{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.feedback .commentElement p{
+    padding-left: 8%;
+    padding-right: 8%;
+        padding-bottom: 8%;
+}
+.feedback .commentElement img{
+    display: inline;
+    width:10%;
+    margin-top: -5%;
+    margin-left: 5%;
+
+  
+}
+.Recent_From_Blog .element{
+    text-align: center;
+
+}
+.Recent_From_Blog .element .line{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #F5886C;
+    width: 30%;
+    margin:auto
+}
+.Recent_From_Blog .element h4{
+    padding-top: 5%;
+
+}
+.Recent_From_Blog .items {
+    margin-left: 10%;
+    margin: auto;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+.Recent_From_Blog .items .item img{
+    width:85%;
+    margin-left: 10%;
+
+    height: 500px;
+}
+.Recent_From_Blog .items .parghraph{
+    width:85%;
+    background-color: #F5F5F5;
+    margin-left:10%;
+    padding:7%
+}
+.Recent_From_Blog .items .parghraph a{
+color: #F5886C;}

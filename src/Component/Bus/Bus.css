@@ -1,0 +1,29 @@
+.sliderBus{
+    background-image:url('../../accets/img/backgroundBus.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.sliderBus .element{
+    padding-top: 15%;
+    color:aliceblue;
+    width:50%
+
+}
+.sliderBus .element input{
+    margin-top: 5%;
+    width:90%;
+
+}
+.sliderBus .element button{
+    margin-top: 5%;
+    background-color: #F5886C;
+    border: none;
+    width:25%;
+    margin-left: 3%;
+    
+    
+}

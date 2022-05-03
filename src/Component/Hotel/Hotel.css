@@ -1,0 +1,30 @@
+.sliderHotel{
+    background-position:center;
+    background-image: url('../../accets/img/backgroundHotel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    padding-bottom: 10%;
+    height:100%;
+}
+.sliderHotel .form{
+    padding-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+.sliderHotel form div input{
+    padding:2%;
+    width: 100%;
+    margin: 2%;
+
+    margin-left: 0%;
+
+}
+.sliderHotel form  button{
+    margin: auto;
+    width: 25%;
+    background-color: #F5886C;
+    border: none;
+    margin-left: 40%;
+
+}

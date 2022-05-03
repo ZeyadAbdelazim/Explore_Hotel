@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React,{Component} from 'react'; 
+import Navbar from './Component/Navbar'
+import {BrowserRouter,NavLink,Route,Routes} from 'react-router-dom';
+import Home from './Component/Home';
+import Bus from './Component/Bus';
+import Contact from './Component/Contact';
+import Footer from './Component/Footer';
+import Hotel from './Component/Hotel';
+
+
 import './App.css';
 
-function App() {
+class App extends Component{
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  <BrowserRouter>
+  <Navbar/>
+  <Routes>
+  <Route path="/" exact element={<Home/>}></Route>
+  <Route path="/bus" exact element={<Bus/>}></Route>
+  <Route path="/hotel" exact element={<Hotel/>}></Route>
+
+  <Route path="/contact" exact element={<Contact/>}></Route>
+  </Routes>
+  <Footer/>
+  </BrowserRouter>  
   );
-}
+
+}}
 
 export default App;

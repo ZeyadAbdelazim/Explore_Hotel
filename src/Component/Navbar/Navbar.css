@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav div img{
+width:60%;
+
+}
+.collapse ul li {
+    padding:10px;
+    color: #000;
+}
+
+nav  .logo{
+    float: right;
+    padding-left: 65%;
+}
+
